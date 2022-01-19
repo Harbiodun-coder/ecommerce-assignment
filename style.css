@@ -1,0 +1,118 @@
+
+* {
+    box-sizing: border-box;
+}
+.shadow {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+.button {
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid grey;
+}
+.text-center {
+    text-align: center;
+}
+.rounded {
+    border-radius: 100%;
+}
+.pill {
+    border-radius: 25px;
+}
+.pill-sm {
+    border-radius: 10px;
+}
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    margin-top: 50px;
+    height: auto;
+    width: 100%;
+    border-radius: 25px;
+    
+}
+.product-image {
+    object-fit: cover;
+    object-position: center;
+    width: inherit;
+    height: 400px;
+    padding: 20px;
+    margin: 0px auto;
+    border-radius: 25px;
+  
+}
+.product-name {
+    padding: 0px 10px;
+    font-weight: bolder; 
+}
+.product-price {
+    padding: 0px 10px;
+    margin-top: 30px;
+    font-size: 18px;
+}
+.order-button {
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border: 1px solid rgba(126, 7, 126, 0.685);
+    font-weight: bold;
+    color: rgba(126, 7, 126, 0.685);
+    background-color: #fff;
+    transition: all .5s;
+}
+.order-button:hover {
+    background-color: rgba(126, 7, 126, 0.685);
+    color: #fff;
+}
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
+.products {
+    display: grid;
+    grid-template-columns: auto;
+
+}
+
+@media screen and (min-width: 680px) {
+    .products {
+        grid-template-columns: auto auto;
+        grid-gap: 50px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .products {
+        grid-template-columns: auto auto auto;
+        grid-gap: 50px;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .products {
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 50px;
+    }
+}
+.our{
+    width: 100%;
+    background-color: blue;
+    color: white;
+    border: 8px solid white;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 30px
+}
+.our:hover{
+    background-color: blueviolet;
+    color: white;
+    border: 2px solid blueviolet;
+}
+a{
+    text-decoration: none;
+}

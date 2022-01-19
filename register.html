@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dennison Register</title>
+    <link rel="stylesheet" href="./register.css">
+</head>
+<body>
+    
+    <h2>
+        <center>Register Now!!!</center>
+    </h2>
+    <div class="container">
+    <form>
+        <div>
+            <label for="first name"  class="form-label"> First Name</label><br>
+            <input type="text" id="first name" placeholder="Enter your first name" class="w-full form-input" required>
+        </div>
+        <br>
+        <div>
+            <label for="middle name" class="form-label"> Middle Name</label><br>
+            <input type="text" id="middle name" placeholder="Enter your Middle name" class="w-full form-input" required>
+        </div>
+        <br>
+        <div>
+            <label for="Last name" class="form-label"> Last Name</label><br>
+            <input type="text" id="Last name" placeholder="Enter your Last name"  class="w-full form-input" required>
+        </div>
+        <br>
+        <div>
+            <label for="Email" class="form-label"> Email</label><br>
+            <input type="email" id="Email" placeholder="Enter your Email address" class="w-full form-input" required>
+        </div>
+        <br>
+        <div>
+            <label for="Password"class="form-label" > Password</label><br>
+            <input type="password" id="Password" placeholder="Enter your password" class="w-full form-input" required>
+        </div>
+        <br>
+        <div>
+            <label for="password" class="form-label"> Confirm your password</label><br>
+            <input type="password" id="password" placeholder="Confirm your password" class="w-full form-input" required>
+        </div>
+        <br>
+        <div>
+            <label for="phone_number" class="form-label"> Phone Number</label><br>
+            <select >
+                <option value="1">+234</option>
+                <option value="2">+233</option>
+                <option value="3">+229</option>
+                <option value="4">+140</option>
+                <option value="5">+227</option>
+            </select>
+            <input type="tel"  name="phone_number" placeholder="Enter your phone number" class="w-full form-input" required>
+        </div>
+
+        <div>
+            <h3>GENDER</h3>
+           MALE <input type="radio"  name="gender"  value="Male"  >
+           FEMALE <input type="radio"  name="gender"  value="Female" >
+        </div>
+        <br>
+        <button type="submit" class="btn">Register</button>
+    </form>
+</div>
+</body>
+</html>

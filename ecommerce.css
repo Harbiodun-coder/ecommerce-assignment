@@ -1,0 +1,60 @@
+.header{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+.header h1{
+    color: white;
+    border: 8px solid white;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 30px;
+}
+.banner{
+    position: relative;
+    text-align: center;
+}
+.banner img{
+    width: 100%;
+}
+.banner .welcome{
+    color: white;
+    padding: 30px;
+    position: absolute;
+    left: 0px;
+    top: 30%;
+}
+.banner h2{
+    font-size: 50px;
+}
+.shop{
+    background-color: black;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    border: 3px solid white;
+    border-radius: 30px;
+    color: white;
+    display: inline-block;
+    width: 50%;
+    height: 50px;
+}
+body, html {
+    background-color: #fff;
+}
+.shop:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.header h1:hover{
+    color: red;
+    border: 1px solid grey;
+    background-color: white;
+}
+
